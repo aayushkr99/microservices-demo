@@ -52,7 +52,7 @@ namespace cartservice.cartstore
                     {
                         cart.Items.Add(new Hipstershop.CartItem { ProductId = productId, Quantity = quantity });
                     }
-                    else
+                    else //
                     {
                         existingItem.Quantity += quantity;
                     }
